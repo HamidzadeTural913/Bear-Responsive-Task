@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section .container div .box {
+  position: relative;
+}
+
+section .container div .box:hover .forhover {
+  display: block;
+}
+
+section .container div .box .forhover {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  background-color: gray;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  display: none;
+}
+
+section .container div .box:hover .forhover2 {
+  display: block;
+}
+
+section .container div .box .forhover2 {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: white;
+}
+
+section .container div .box .forhover2 i {
+  display: block;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: green;
+}
+
+section img {
+  width: 320px;
+  padding: 20px;
+}
+
+section .basliq {
+  text-align: center;
+}
+
+section .basliq p {
+  color: green;
+}
+
+section .icons {
+  text-align: center;
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

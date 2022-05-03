@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+        .container{
+            div{
+                .box{
+                    position: relative;
+                    &:hover .forhover{
+                        display: block;
+                    }
+                    .forhover{
+                        position: absolute;
+                        top: 30px;
+                        left: 50px;
+                        background-color: gray;
+                        padding:10px 15px;
+                        border-radius: 10px;
+                        color: white;
+                        display: none;
+                        
+                    }
+                    &:hover .forhover2{
+                        display: block;
+                    }
+                    .forhover2{
+                        display: none;
+                        position: absolute;
+                        top: 30px;
+                        right: 20px;
+                        
+                        color: white;
+                        
+                        
+                        i{
+                            display: block;
+                            margin-top: 5px;
+                            padding: 10px 15px;
+                            background-color: green;
+                        }
+                    }
+                }
+            }
+        }
+        img{
+            width: 320px;
+           
+            padding: 20px;
+        }
+        .basliq{
+            text-align: center;
+            p{
+                color: green;
+            }
+
+        }
+        .icons{
+            text-align: center;
+            color: yellow;
+        }
+       
+    
+}
